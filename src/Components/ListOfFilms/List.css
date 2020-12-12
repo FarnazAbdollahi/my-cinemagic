@@ -1,0 +1,31 @@
+.table {
+   /* width:95%; */
+   text-align: center;
+}
+.thead {
+   background:#8675a9;
+   color: #ffd5cd;
+}
+.list-page {
+   display:flex;
+   flex-flow: row wrap;
+   justify-content: space-between;
+}
+.list {
+   align-self: center;
+   
+}
+.search-bar {
+   align-self: center;
+   margin: 0.5rem;
+}
+#dropdown-item, .search {
+   color: #ffd5cd !important;
+   background:#8675a9 !important;
+   border: 1px solid #8675a9 !important;
+}
+#dropdown-item:hover , #dropdown-item:active, .search {
+   background:#ffd5cd  !important;
+   color:#8675a9 !important;
+   border: 1px solid #8675a9 !important;
+}

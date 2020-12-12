@@ -1,0 +1,33 @@
+.home-page {
+    margin-left:18rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+.post{
+    background-color: #eee;
+    margin: 2rem;
+    padding: 1rem;
+  }
+  .pagination{
+    margin: 1rem auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+  }
+  .active{
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 0 3px;
+    outline: none;
+  }
+ .search {
+    color: #ffd5cd !important;
+    background:#8675a9 !important;
+    border: 1px solid #8675a9 !important;
+ }
+.search:hover , .search:active{
+    background:#ffd5cd  !important;
+    color:#8675a9 !important;
+    border: 1px solid #8675a9 !important;
+ }

@@ -1,0 +1,37 @@
+.nav {
+    width: 15rem;
+    text-align: center;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background: #8675a9;
+}
+.search-form {
+    position: absolute;
+    bottom: 0;
+}
+.logo {
+    width: 95%;
+    background: #ffffff;
+    margin: 2rem 0rem;
+    padding: 1rem;
+    border-radius: 5rem;
+}
+.logo:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in all;
+}
+.links {
+    font-weight: 700;
+    color: #ffd5cd;
+    padding: 1rem;
+}
+.links:hover, .links:active {
+    text-decoration: none;
+    background:#ffd5cd;
+    color:#8675a9;
+    border-radius: 5rem;
+}

@@ -1,0 +1,23 @@
+
+.form-label{
+    color:#8675a9;
+}
+.button {
+    margin: 0.5rem ;
+    color: #ffd5cd;
+    background:#8675a9;
+    border: 1px solid #8675a9;
+    padding: 0.5rem 1.5rem;
+
+}
+.button:hover , .button:active {
+    background:#ffd5cd ;
+    color:#8675a9 ;
+    border: 1px solid #8675a9 ;
+}
+.add-modal {
+    margin-bottom: 5rem;
+}
+.form-group {
+    margin:1rem;
+}
